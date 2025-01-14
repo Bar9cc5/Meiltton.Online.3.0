@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="logo">
+            <h1>Meiltton Community</h1>
+        </div>
+        <div class="hamburger" id="hamMenu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="navigation" id="navMenu">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner" id="about">
+        <div class="banner-content">
+            <h1>Услуги Веб-Разработки</h1>
+            <p>Создаем современные сайты с адаптации под все устройства!
+                <p>с нами можно легко связатсья а также вы можете посмотреть наши работы/проекты</p>
+            </p>
+            <a href="#contact" class="btn">Связаться с нами</a>
+        </div>
+    </div>
+    <div class="lenta-main">
+        <h1>Наши проекты</h1>
+    </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="column left-column">
+            <h2>Mire Group</h2>
+            <img src="images-lenta1.png" alt="Статья 1" style="width: 100%; height: auto;">
+        </div>
+        <div class="column right-column">
+            <h2>Mire Group</h2>
+            <p>На нашем сайте Mire Group вы можете заказать веб дизайн и граффический дизайн.</p>
+            <p>Мы предлагаем широкий спектр услуг, которые помогут вашему бизнесу выделиться в цифровом пространстве.</p>
+            <div class="two2">
+                <p>Мы предоставляем услуги по созданию:
+                    <p><span>Веб-дизайна</span> — от лендингов до сложных корпоративных сайтов.</p>
+                    <p><span>Графического дизайна</span> — логотипы, визитки, рекламные материалы и многое другое.</p>
+                    Свяжитесь с нами уже сегодня и получите бесплатную консультацию!</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="column left-column">
+            <h2>ГеографияPlus</h2>
+            <img src="images-lenta2.png" alt="Статья 2" style="width: 100%; height: auto;">
+        </div>
+        <div class="column right-column">
+            <h2>ГеографияPlus</h2>
+            <p>На нашем сайте вы научитесь новым знаниям, а также узнаете много нового!</p>
+            <p>Сайт предназначен для учителей, учеников, любителей.</p>
+            <div class="two4">
+                <p>На данном сайте вы сможете:
+                    <p><span>Узнать новый материал</span> На сайте есть материалы по географическим темам школьного курса: карты, теоретический материал</p>
+                    На сайте собраны материалы, которые помогут наглядно объяснить географические концепты. Курс с 5 по 11 класс.</p>
+                <div class="two3-div">В разработке</div>
+            </div>
+        </div>
+    </div>
+    <div class="container2" id="services">
+        <h2>Наши услуги:</h2>
+        <p>Корпоративные сайты.</p>
+        <p>Информационные сайты.</p>
+        <p>Интернет-магазины.</p>
+        <p>Веб-сервисы.</p>
+        <p>Сайты-представительства.</p>
+        <p>Портфолио.</p>
+        <p>Визитка.</p>
+    </div>
+    <main>
+        <section id="contact">
+            <h2>Связаться с нами</h2>
+            <form action="send_email.php" method="post">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; «Meiltton Community» «Шаг в бизнес» «Полёт»</p>
+        <div class="footera" id="#contact">
+            <h3>Наши соц-сети:</h3>
+            <p><a href="https://vk.com/meiltton_comunity">ВКонтакте</a></p>
+            <p><a href="https://t.me/Mailtton_Community">Телеграмм</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
